@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-
+import Header from "./components/Header/Header";
 import Home from './components/Home/Home';
 
 function App() {
@@ -13,8 +13,9 @@ function App() {
       <div id="bg-img">
         <Router>
 
-
-          <Switch>
+          <Header />
+          
+           <Switch>
 
             <Route path="/home" component={Home} />
 
