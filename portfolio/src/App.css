@@ -9,12 +9,15 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; 
+  background-image: linear-gradient(to right,#000000, rgb(255, 183, 77, 0.8));
+  animation: gradient 4s ease forwards;
 }
 body{
  
   background-attachment: fixed;
   background-size: cover; 
 }
+
 body:after {
   content: '';
   position: absolute;
@@ -24,7 +27,21 @@ body:after {
   height: 100%;
   z-index: -1;
   background: rgba(89, 136, 125, 0.9); 
+  background-image: linear-gradient(to right,#1d1a1a, rgba(89, 136, 125, 0.9));
+  animation: gradient 4s ease forwards;
 }
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+    background-color: #2b2828;
+  }
+} */
 
 h1,
 h2,

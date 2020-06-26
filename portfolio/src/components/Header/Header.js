@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import {  Link } from "react-router-dom";
-import abirpic from "../../img/portfolio.JPG";
+
 
 
 const Header = () => {
