@@ -1,0 +1,24 @@
+#home {
+    font-family: 'Josefin Sans', sans-serif;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+
+    0%{
+        
+        background-color: rgb(68, 85, 70);
+
+    }
+    50%{
+        
+        background-color: rgb(94, 115, 130);
+    }
+    
+
+    100%{
+        
+        background-color: rgb(97, 97, 74);
+
+    }
+}

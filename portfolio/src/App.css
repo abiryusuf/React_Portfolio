@@ -27,7 +27,7 @@ body:after {
   height: 100%;
   z-index: -1;
   background: rgba(89, 136, 125, 0.9); 
-  background-image: linear-gradient(to right,#1d1a1a, rgba(89, 136, 125, 0.9));
+  background-image: linear-gradient(to right,#1f323a, rgba(89, 136, 125, 0.9));
   animation: gradient 4s ease forwards;
 }
 /* @keyframes gradient {
@@ -79,7 +79,7 @@ main .icons a {
   padding: 0.4rem; 
 }
 main .icons a:hover {
-  color: #eece1a;
+  color: #ee521a;
   transition: all 0.5s ease-out; 
 }
 main#home {
@@ -103,7 +103,7 @@ main#home h1 {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #de4010;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
