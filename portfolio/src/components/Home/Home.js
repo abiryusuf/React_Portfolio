@@ -25,13 +25,10 @@ const Home = () => {
       />
     </h2>
     <div className="icons">
-      {/* <a target="_blank" href="abiryusu5225@gmail.com">
-        <FontAwesomeIcon icon={faGmail} size="2x" />
-      </a> */}
-      <a target="_blank" href="https://www.linkedin.com/feed/">
+      <a target="_blank" href="https://www.linkedin.com/feed/" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-      <a target="_blank" href="https://github.com/">
+      <a target="_blank" href="https://github.com/" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
     </div>
