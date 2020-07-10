@@ -3,6 +3,7 @@ import './Work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import Typical from 'react-typical';
 import BeastMode from "../../img/porjects/beast.png";
 import CodingQuiz from "../../img/porjects/coding.png";
 import Weather from "../../img/porjects/weather.png";
@@ -18,7 +19,19 @@ const Work = () => {
       My <span className="secondary-color">Work</span>
     </h1>
     <h2 className="sm-heading">
-      Check out some of my projects...
+      Check out some of my projects...{' '}
+      <Typical
+        steps={[
+          'Beast Mode!', 2000, 
+          'Coding Quiz', 2000,
+          'Weather Deshboard', 2000,
+          'Template_Engine_Employee_Summary', 2000,
+          'Employee Directory', 2000,
+        
+        ]}
+        loop={Infinity}
+        wrapper="span"
+      />
     </h2>
     <div className="projects">
       <div className="item">
