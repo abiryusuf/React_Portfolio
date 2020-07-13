@@ -12,7 +12,7 @@ const Home = () => {
       <span className="secondary-color"> Abir</span>
     </h1>
     <h2 className="sm-heading">
-       I am {' '}
+       I'm {' '}
       <Typical
         steps={[
           'A Web Developer', 2000, 
