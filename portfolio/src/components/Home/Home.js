@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <main id="home">
     <h1 className="lg-heading">
-      Abir
-      <span className="secondary-color"> Yusuf</span>
+      Hi, I am
+      <span className="secondary-color"> Abir</span>
     </h1>
     <h2 className="sm-heading">
-      Hi, I am {' '}
+       I am {' '}
       <Typical
         steps={[
           'A Web Developer', 2000, 
