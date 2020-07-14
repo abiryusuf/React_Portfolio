@@ -52,12 +52,12 @@ body {
     color: white;
     border: none;
     cursor: pointer;
-    background-image: linear-gradient(-90deg, #30336b, #130f40);
+    background-image: linear-gradient(-90deg, #306b48, #b51d40);
     box-shadow: 5px 5px 10px rgb(14, 13, 13);
     transition: all 0.5s ease-out;
   }
   .cv .glow-on-hover:hover {
-    background-image: linear-gradient(-90deg, #130f40, #30336b);
+    background-image: linear-gradient(-90deg, #0f4027, #82c974);
   }
   
   @media screen and (max-width: 768px) {
@@ -97,9 +97,9 @@ body {
         .about-info .job {
           background: #457376;
           padding: 0.5rem;
-          border-bottom: #eece1a 5px solid; }
+          border-bottom: salmon 5px solid; }
           .about-info .job h3 {
-            color: #eece1a;
+            color: salmon;
           }
       
       /* CV SECTION */
