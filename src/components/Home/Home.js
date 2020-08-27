@@ -25,7 +25,7 @@ const Home = () => {
       />
     </h2>
     <div className="icons">
-      <a target="_blank" href="https://www.linkedin.com/feed/" rel="noopener noreferrer">
+      <a target="_blank" href="https://www.linkedin.com/in/abir-yusuf/" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a target="_blank" href="https://github.com/" rel="noopener noreferrer">

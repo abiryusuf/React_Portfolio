@@ -65,7 +65,7 @@ const About = () => {
       </section>
     </div>
     <div className="cv">
-      <Link target="_blank" to="https://docs.google.com/document/d/1_LNdqDnzNeY-PxLWtuFSYWjeqnDUaP9W/edit" className="glow-on-hover">Download Resume</Link>
+      <Link target="_blank" to="https://docs.google.com/document/d/1ERZcDV7VYKoAAFdKhOaDO2UxIPM8e_a7/edit#" className="glow-on-hover">Download Resume</Link>
     </div>
     
 
