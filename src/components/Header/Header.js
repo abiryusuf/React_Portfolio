@@ -41,11 +41,11 @@ const Header = () => {
             My Work
           </Link>
         </li>
-        <li className={`nav-item ${showMenu ? 'show' : ''}`} onClick={toggleMenu}>
+        {/* <li className={`nav-item ${showMenu ? 'show' : ''}`} onClick={toggleMenu}>
           <Link to="blog" className="nav-link">
             Blog
           </Link>
-        </li>
+        </li> */}
         <li className={`nav-item ${showMenu ? 'show' : ''}`} onClick={toggleMenu}>
           <Link to="contact" className="nav-link">
             Contact Me

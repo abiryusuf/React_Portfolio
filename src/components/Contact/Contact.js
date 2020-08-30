@@ -7,7 +7,8 @@ const Contact = () => {
       Contact <span className="secondary-color">Me</span>
     </h1>
     <div className="container">  
-      <form name="contactForm" id="contact" method="POST" data-netlify="true">
+
+      {/* <form name="contactForm" id="contact" method="POST" data-netlify="true">
         <fieldset>
           <input placeholder="Your name" type="text" id="name" name="name" tabIndex="1" required autoFocus />
         </fieldset>
@@ -20,7 +21,7 @@ const Contact = () => {
         <fieldset>
           <button type="submit" id="contact-submit">Submit</button>
         </fieldset>
-      </form>
+      </form> */}
     </div>
   </main>
   );
